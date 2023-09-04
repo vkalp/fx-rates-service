@@ -37,13 +37,13 @@ public class FxRatesService {
 
     private String currencyLabel(Currencies currencies) {
         if (currencies == Currencies.EUR) {
-            return "Euro";
+            return CurrencyLabels.EURO;
         }
         if (currencies == Currencies.DKK) {
-            return "Danish krone";
+            return CurrencyLabels.DANISH_KRONE;
         }
         if (currencies == Currencies.SEK) {
-            return "Swedish krona";
+            return CurrencyLabels.SWEDISH_KRONA;
         }
         return null;
     }
